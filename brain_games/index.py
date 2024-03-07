@@ -9,7 +9,7 @@ def logic(game):
     attempts = 0 
 
     while attempts < 3:
-        correct_answer, num = game.play_game()
+        correct_answer, num = game.make_question()
         print(f'Question: {num}')
         user_answer = prompt.string('Your answer: ')
 
