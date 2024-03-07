@@ -5,7 +5,7 @@ from random import randint
 rules = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def make_question():
+def play_game():
     num = randint(1, 100)
     flag = is_even(num)
     if flag is True:
