@@ -12,4 +12,3 @@ def play_game():
     num = f'{number_1} {number_2}'
 
     return correct_answer, num
-#pisichki
