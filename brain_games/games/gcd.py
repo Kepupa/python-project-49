@@ -13,8 +13,8 @@ def gcd(num1, num2):
     return max_val
 
 def gplay_game():
-    num1 = randint(0, 100)
-    num2 = randint(0, 100)
+    num1 = randint(1, 100)
+    num2 = randint(1, 100)
     num = f"{num1} {num2}"
     correct_answer = gcd(num1, num2)
     return correct_answer, num
