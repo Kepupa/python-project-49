@@ -1,4 +1,4 @@
-from random import randint, choice 
+from random import randint, choice
 from operator import add, sub, mul
 
 rules = 'What is the result of the expression?'
@@ -8,6 +8,7 @@ operators = {
     '-': sub,
     '*': mul
 }
+
 
 def play_game():
 
@@ -19,5 +20,4 @@ def play_game():
         num = f'{first_number} {operator} {second_number}'
     elif second_number > first_number:
         num = f'{second_number} {operator} {first_number}'
-
     return correct_answer, num

@@ -1,7 +1,5 @@
 from random import randint
 
-
-
 rules = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
@@ -17,4 +15,3 @@ def play_game():
 
 def is_even(num):
     return True if num % 2 == 0 else False
-    

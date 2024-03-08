@@ -2,11 +2,10 @@ import prompt
 from brain_games.cli import welcome_user
 
 
-
 def logic(game):
     name = welcome_user()
     print(game.rules)
-    attempts = 0 
+    attempts = 0
 
     while attempts < 3:
         correct_answer, num = game.play_game()

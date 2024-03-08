@@ -1,8 +1,9 @@
 from random import randint
-from math import sqrt
+
 
 rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    
+
+
 def is_prime(n):
     for i in range(2, n):
         if n % i == 0:
