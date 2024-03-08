@@ -8,9 +8,9 @@ def is_prime(n):
 
 
 def play_game():
-    num = randint(2, 99)
-    attempts = is_prime(num)
-    if attempts is True:
+    num = randint(1, 100)
+    task = is_prime(num)
+    if task is True:
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
